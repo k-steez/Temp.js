@@ -1,0 +1,9 @@
+/ Value of kelvin value temperature, won't be changed.
+let Kelvin = 0;
+// Conversion to celsius to kelvin inovlves subtracting 273.
+ Kelvin -= 273;
+let Celsius = Kelvin;
+// equation for converting celsius to fahrenheit, decimal math function is used to round down decimal value.
+let Fahrenheit = Math.floor(Celsius * (9/5) + 32);
+
+console.log(`The temperature is ${Fahrenheit}`+ 'degrees Fahrenheit');
